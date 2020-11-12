@@ -1,0 +1,39 @@
+body {
+  background-color: #34626c;
+  text-align: center;
+}
+
+h1 {
+  padding: 7% 0 15%;
+  font-family: "Courgette", sans-serif;
+  font-size: 70px;
+  color: #16a596;
+}
+
+h2 {
+  font-family: "Courgette", sans-serif;
+  font-size: 20px;
+  color: #16a596;
+}
+
+img {
+  width: 70%;
+  height: auto;
+}
+
+.container-fluid {
+  width: 50%;
+}
+
+.table-data {
+  margin: 0 auto;
+}
+
+.footer {
+  margin-top: 13%;
+}
+
+.flag-img {
+  width: 15%;
+  height: auto;
+}
