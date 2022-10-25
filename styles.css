@@ -8,11 +8,12 @@
 
 body {
     align-items: center;
-    background-color: #A1B57D;
+    background-color: #61764B;
     display: flex;
     font-family: 'Akaya Telivigala', cursive;
     justify-content: center;
     min-height: 100vh;
+    color: #F5F5DC;
 }
 
 p {
@@ -27,18 +28,19 @@ p {
     "playerOne playerTwo"
     "footer footer";
     text-align: center;
-    max-width: 90%;
+    width: 70%;
 }
 
 .title-wrapper {
     font-family: 'Redressed', cursive;
     grid-area: title;
+    margin-top: 1.5rem;
     padding-bottom: 3rem;
 }
 
 .title {
     display: inline-block;
-    font-size: calc(1vw + 1.8rem);
+    font-size: 3.5rem;
 }
 
 .playerOne {
@@ -60,7 +62,7 @@ p {
 .flag {
     position: relative;
     top: 2px;
-    width: 15%;
+    width: 10%;
 }
 
 .leftFlag {
@@ -68,62 +70,62 @@ p {
 }
 
 .refreshMeBtn {
-    background-color: #19282F;
+    background-color: #F5F5DC;
     border-radius: 30px;
     box-shadow: 0 5px #999;
     border: none;
-    color: #fff;
+    color: #000;
     cursor: pointer;
     font-size: calc(1vw + 1em);
     margin-top: 3rem;
     padding: 0.5rem;
-    width: 45%;
+    width: 30%;
 }
 
 .refreshMeBtn:hover {
-    background-color: #0F0E0E;
+    background-color: #F5F5DC;
 }
 
 .refreshMeBtn:active {
-    background-color: #0F0E0E;
+    background-color: #000;
+    color: #F5F5DC;
     box-shadow: 0 2px #666;
     transform: translateY(4px);
 }
 
 .creator {
     font-size: 1.2em;
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
-
 
 img{
-    max-width: 70%;
+    width: 50%;
 }
 
-@media screen and (min-width: 700px){
+@media(max-width: 600px){
 
     p {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     .container {
-        max-width: 65%;
+        width: 90%;
     }
 
     .title {
-        font-size: 3.5em;
+        font-size: 1.8em;
     }
 
     .dice{
-        max-width: 35%;
+        width: 75%;
     }
 
     .refreshMeBtn {
         font-size: 1.5em;
-        max-width: 30%;
+        width: 60%;
     }
 
     .creator {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
