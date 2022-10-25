@@ -82,6 +82,10 @@ p {
     width: 30%;
 }
 
+.refreshMeBtn:focus{
+    outline: none;
+}
+
 .refreshMeBtn:hover {
     background-color: #F5F5DC;
 }
